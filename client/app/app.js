@@ -25,7 +25,7 @@ class App extends React.Component {
           <Route path="calendar" component={EventPage} />
         </Route>
       </Router>
-    )
+    );
   }
 }
 
@@ -33,4 +33,4 @@ class App extends React.Component {
 ReactDOM.render(
   <App />,
   document.getElementById('root')
-)
+);

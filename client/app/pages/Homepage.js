@@ -2,7 +2,8 @@ import React from 'react';
 import HomeLeftSidebar from '../components/Homepage/HomeLeftSidebar.js';
 import MainFeed from '../components/Homepage/MainFeed.js';
 import HomeRightSidebar from '../components/Homepage/HomeRightSidebar.js';
-import {getFeedData, getUsersBands, getUser, getBand} from '../server';
+//import {getFeedData, getUsersBands, getUser, getBand} from '../server';
+import {getFeedData, getUsersBands, getUser} from '../server';
 
 export default class Homepage extends React.Component {
 
@@ -24,7 +25,7 @@ export default class Homepage extends React.Component {
       });
       getUser(this.props.userId, (userObj) => {
         this.setState({user: userObj});
-        var followingBands = [];
+        //var followingBands = [];
         /*this.state.user.following.map((bandId) => {
             getBand(bandId, (band) => {
                 followingBands.push(band);
