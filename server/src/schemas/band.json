@@ -33,7 +33,7 @@
            "instrument": {"type": "string"},
            "info": {"type": "string"}
         },
-        "required": ["instument", "info"]
+        "required": ["instrument", "info"]
       }
     }
   },
