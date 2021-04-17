@@ -22,7 +22,7 @@ export default class Entry extends React.Component {
   }
 
   refresh(){
-    getUser("000000000000000000000001", (userObj) => {
+    getUser("1", (userObj) => {
       this.setState({user: userObj});
     });
   }
@@ -46,6 +46,6 @@ export default class Entry extends React.Component {
           this.props.children
         }
       </div>
-    )
+    );
   }
 }
