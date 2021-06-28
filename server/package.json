@@ -9,7 +9,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-jsonschema": "^1.1.6",
-    "mongo-express": "^0.39.2",
+    "mongo-express": "^0.54.0",
     "mongodb": "^2.2.33"
   },
   "devDependencies": {
